@@ -35,7 +35,31 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
-
 button:hover {
   background: #facc15;
+}
+#chatbot {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#chat-box {
+  border: 1px solid #ccc;
+  height: 200px;
+  padding: 10px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+#chat-box p {
+  margin: 5px 0;
+}
+
+#user-input {
+  width: 70%;
+  padding: 8px;
+}
+
+#send-btn {
+  padding: 8px 12px;
 }
