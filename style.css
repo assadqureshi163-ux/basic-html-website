@@ -63,3 +63,45 @@ button:hover {
 #send-btn {
   padding: 8px 12px;
 }
+#add-lead {
+  max-width: 420px;
+  margin: 30px auto;
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#add-lead input,
+#add-lead select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+#add-lead button {
+  width: 100%;
+  padding: 10px;
+}
+#add-lead {
+  max-width: 420px;
+  margin: 30px auto;
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#add-lead input,
+#add-lead select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+#add-lead button {
+  width: 100%;
+  padding: 10px;
+}
