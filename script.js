@@ -45,3 +45,14 @@ function botReply(userMessage) {
 
   addMessage("Bot", reply);
 }
+const form = document.getElementById("lead-form");
+const msg = document.getElementById("status-msg");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  msg.innerText = "Lead saved successfully ✅";
+  msg.style.color = "#22c55e";
+
+  form.reset();
+});
